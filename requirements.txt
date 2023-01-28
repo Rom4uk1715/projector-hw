@@ -1,0 +1,2 @@
+faker==16.6.1  # tut vkazani vsi biblioteku(nedefoltni) jaki neobxidni dla funk progrmu
+requests==2.28.2

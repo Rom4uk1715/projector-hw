@@ -13,7 +13,7 @@ def Giphy():
     search = input('Which gif do you want to find').lower()
 
     parametry = {
-        'api_key': 'Cuex3rAQe8a2dM5SmQKlK2AVFxpT2qH2',
+        'api_key': 'my key',
         'limit': 25,
         'offset': 0,
         'rating': 'g',
@@ -35,7 +35,7 @@ def Giphy():
 # Practice Task 2 Current weather data 
 
 import requests, json
-api_key = "ce937f608ab3872ba81205d9711a820b"
+api_key = "my key"
 base_url = "http://api.openweathermap.org/data/2.5/weather?"
 lang = '&lang=uk'
 units = '&units=metric'
@@ -73,7 +73,7 @@ else:
 
 # Task 3 
 def kosmos():
-    url = 'http://api.open-notify.org/astros.json'
+    url = 'my key'
     response = requests.get(url) # daje zaput na otrumania danux
 
     if response.status_code == 200: # jaksho zaput uspishnu, potribno otrumatu json
